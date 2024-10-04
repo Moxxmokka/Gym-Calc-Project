@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Increase.css" />
+    <title>Increase Weight</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="title">Increase Weight</h1>
+      <br />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Increase.html">Increase Weight</a>
+        <a href="Warmup.html">Warmup</a>
+        <a href="Exercise.html">Exercises</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="maintitle">Russian Bench Routine</h1>
+      <h2>Want to increase your 1 Rep Max?</h2>
+      <input type="number" id="oneRepMax" placeholder="Enter your 1RM">
+      <button onclick="roundWeights()">Round to Nearest 2.5 kg</button>
+      <button onclick="generateRoutine()">Generate Routine</button>
+      <div id="routine"></div>
+    </main>
+
+    <footer></footer>
+
+    <script src="increase.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(/Bilder/gym-background-dr08hyjw70y464su.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    background-color: #312F2F;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    outline: 2px solid white;
+}
+
+a{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    text-shadow: 4px 3px black;
+    text-decoration: none;
+    color: white;
+    border-bottom:2px solid white;
+    padding: 1px;
+    margin: 10px;
+}
+
+.title{
+    font-family: Bebas Neue;
+    font-size: 60px;
+    color: white;
+    text-shadow: 5px 5px black;
+}
